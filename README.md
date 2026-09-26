@@ -106,3 +106,5 @@
 - 纯枪包不出弹药：弹药策略选了 skip/none，或枪 data 无 ammo 且严格关但跨包没开；开跨包+口径模糊通常能补。
 - 生成报参数/导入错误：确认 `tacz_loot.py` 签名含 `out_att_only/out_ammo_only`，且 `tacz_ammo.py` 有 `build_all_ammo_plans` 等。
 - 适配器不出附件池：adapter tag（如 `#tacz:adapter/xxx`）走独立 resolved_adapters，不进普通 attachment 掉落池，这是按 TACZ 适配器设计隔离的。
+
+项目代码由ai生成
